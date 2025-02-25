@@ -3,7 +3,7 @@ project(battle)
 
 set(SOURCES battle.cpp)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++20 -pedantic-errors -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++20 -pedantic-errors -gdwarf-4")
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
