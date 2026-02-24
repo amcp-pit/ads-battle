@@ -7,7 +7,6 @@ Checks: -*,
   portability-*,
   readability-*,
   -bugprone-exception-escape,
-  -bugprone-branch-clone,
   -readability-magic-numbers,
   -readability-function-cognitive-complexity,
   -readability-identifier-length,
@@ -15,5 +14,4 @@ Checks: -*,
 
 WarningsAsErrors: ''
 HeaderFilterRegex: ''
-AnalyzeTemporaryDtors: false
 FormatStyle:     ''
